@@ -28,7 +28,11 @@ html {
   text-shadow: 5px 8px 6px #1B0E00;
   color:white;
   grid-template-columns: auto auto auto;
-
+}
+#letras-titulo{
+  color: #863bae;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 body {
@@ -1623,7 +1627,6 @@ h3.quote::before {
   background-color: #fff;
   margin-bottom: 50px;
   padding: 20px;
-  posit
 }
 
 .blog-subtitle {
