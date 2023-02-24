@@ -11,6 +11,11 @@ html {
   overflow-x: hidden;
 }
 
+.documentacionPDF{
+  width: 880px;
+  height: 880px;
+}
+
 @font-face {
   font-family: madera;
   src: url(../../theme/fonts/madera1/madera1);
@@ -90,17 +95,6 @@ p {
 
 .navbar-toggle .icon-bar {
   background: #f89d35;
-}
-
-input[type=email], input[type=password], input[type=text], input[type=tel] {
-  box-shadow: none;
-  height: 45px;
-  outline: none;
-  font-size: 14px;
-}
-input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, input[type=tel]:focus {
-  box-shadow: none;
-  border: 1px solid #f89d35;
 }
 
 .input {
@@ -748,7 +742,7 @@ nav{
   }
 }
 .bg-1 {
-  background: url("../images/bg/bg-3.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/banner.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -1089,7 +1083,7 @@ nav{
 }
 
 .bg-counter {
-  background: url("../images/bg/bg-3.jpg") no-repeat;
+  background: url("../images/bg/banner.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -1278,7 +1272,7 @@ nav{
 }
 
 .cta-block {
-  background: url("../images/bg/bg-3.jpg") fixed 50% 50%;
+  background: url("../images/bg/banner.jpg") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
@@ -1401,32 +1395,13 @@ nav{
   box-shadow: 0 0.5rem 1rem rgba(213, 12, 217, 0.15) !important;
 }
 
-#borde1:hover{
+.borde1:hover{
   transition: 2s;
   box-shadow: 0 1rem 1rem rgba(213, 12, 217, 0.15);
 }
-#borde1{
+.borde1{
   transition: 2s;
 }
-
-#borde2:hover{
-  box-shadow: 0 1rem 1rem rgba(213, 12, 217, 0.15);
-  transition: 2s;
-}
-
-#borde2{
-  transition: 2s;
-}
-
-#borde3:hover{
-  box-shadow: 0 1rem 1rem rgba(213, 12, 217, 0.15);
-  transition: 2s;
-}
-
-#borde3{
-  transition: 2s;
-}
-
 .tags {
   display: block !important;
 }
@@ -1588,97 +1563,6 @@ h3.quote::before {
 /*=================================================================
   Single Blog Page
 ==================================================================*/
-.post.post-single {
-  border: none;
-}
-.post.post-single .post-thumb {
-  margin-top: 30px;
-}
-
-.post-sub-heading {
-  border-bottom: 1px solid #dedede;
-  padding-bottom: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.post-social-share {
-  margin-bottom: 50px;
-}
-
-.post-comments {
-  margin: 30px 0;
-}
-.post-comments .media {
-  margin-top: 20px;
-}
-.post-comments .media > .pull-left {
-  padding-right: 20px;
-}
-.post-comments .comment-author {
-  margin-top: 0;
-  margin-bottom: 0px;
-  font-weight: 500;
-}
-.post-comments .comment-author a {
-  color: #863bae;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.post-comments time {
-  margin: 0 0 5px;
-  display: inline-block;
-  color: #808080;
-  font-size: 12px;
-}
-.post-comments .comment-button {
-  color: #863bae;
-  display: inline-block;
-  margin-left: 5px;
-  font-size: 12px;
-}
-.post-comments .comment-button i {
-  margin-right: 5px;
-  display: inline-block;
-}
-.post-comments .comment-button:hover {
-  color: #f89d35;
-}
-
-.post-excerpt {
-  margin-bottom: 60px;
-}
-.post-excerpt h3 a {
-  color: #000;
-}
-.post-excerpt p {
-  margin: 0 0 30px;
-}
-.post-excerpt blockquote.quote-post {
-  margin: 20px 0;
-}
-.post-excerpt blockquote.quote-post p {
-  line-height: 30px;
-  font-size: 20px;
-  color: #863bae;
-}
-
-.single-blog {
-  background-color: #fff;
-  margin-bottom: 50px;
-  padding: 20px;
-}
-
-.blog-subtitle {
-  font-size: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #dedede;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-}
-
 .next-prev {
   border-bottom: 1px solid #dedede;
   border-top: 1px solid #dedede;
