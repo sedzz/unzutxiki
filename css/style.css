@@ -18,11 +18,11 @@ html {
 
 @font-face {
   font-family: madera;
-  src: url(../../theme/fonts/madera1/madera1);
+  src: url(../fonts/madera/madera1.otf);
 }
 @font-face {
   font-family: madera2;
-  src: url(../../theme/fonts/madera/madera2.otf);
+  src: url(../fonts/madera/madera2.otf);
 }
 
 #titulo{
